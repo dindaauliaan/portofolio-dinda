@@ -1,0 +1,20 @@
+.journey { background: var(--lavender); padding: 5rem clamp(1rem, 5vw, 4rem) 8rem; overflow: hidden; }
+.journey__title { max-width: 900px; margin: 0 auto 4rem; text-align: center; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.1; }
+.journey__title span { color: var(--blue); }
+.journey__title em { font-family: var(--font-hand); font-style: normal; font-size: 0.8em; color: var(--forest); }
+.journey__list { position: relative; max-width: 980px; margin: 0 auto; display: grid; gap: 3.5rem; }
+.journey__list::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 4px dashed var(--ink); opacity: 0.35; }
+.step { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; position: relative; }
+.step--right .step__photo { order: 2; }
+.step__card { background: #fff; border: var(--border); box-shadow: var(--shadow-pop); padding: 1.4rem 1.6rem; display: grid; gap: 0.7rem; }
+.step__card h3 { font-family: var(--font-display); font-size: 1.3rem; text-transform: lowercase; }
+.step__year { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; line-height: 1; }
+.step__card--butter { border-top: 14px solid var(--butter); } .step__card--mint { border-top: 14px solid var(--mint); }
+.step__card--sky { border-top: 14px solid var(--sky); } .step__card--peach { border-top: 14px solid var(--peach); }
+.step__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.journey__d1 { left: 4%; top: 9rem; } .journey__d2 { right: 4%; top: 42%; } .journey__d3 { left: 6%; bottom: 14%; } .journey__d4 { right: 8%; bottom: 10%; }
+@media (max-width: 760px) {
+  .step { grid-template-columns: 1fr; gap: 1.5rem; }
+  .step--right .step__photo { order: 0; }
+  .journey__list::before { left: 8px; }
+}

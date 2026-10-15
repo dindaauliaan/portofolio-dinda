@@ -1,0 +1,16 @@
+.sticker {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--ink);
+  border: 2.5px solid var(--ink);
+  border-radius: 999px;
+  background: var(--mint);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+.sticker--mint { background: var(--mint); }
+.sticker--peach { background: var(--peach); }
+.sticker--sky { background: var(--sky); }
+.sticker--butter { background: var(--butter); }
+.sticker--lilac { background: var(--lilac); }

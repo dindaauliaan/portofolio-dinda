@@ -1,0 +1,14 @@
+.meet { background: var(--ivory); padding: 4rem clamp(1rem, 5vw, 4rem) 5rem; text-align: center; }
+.meet__title { font-family: var(--font-display); font-size: clamp(2.6rem, 8vw, 6rem); color: var(--forest); line-height: 1; }
+.meet__sub { max-width: 640px; margin: 1rem auto 0; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.95rem; }
+.meet__grid { max-width: 1100px; margin: 3.5rem auto 0; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 3.5rem; align-items: center; text-align: left; }
+.meet__portrait { position: relative; max-width: 380px; justify-self: center; width: 100%; }
+.meet__happy { right: -10%; bottom: -2.2rem; color: var(--forest); }
+.meet__star { left: -14%; top: 6%; }
+.meet__text { position: relative; display: grid; gap: 1.4rem; max-width: 52ch; }
+.meet__lead { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.25; }
+.mark { background: linear-gradient(transparent 55%, var(--butter) 55%); }
+.mark--lilac { background: linear-gradient(transparent 55%, var(--lilac) 55%); }
+.meet__squiggle { position: static; margin-top: -0.6rem; }
+.meet__arrow { right: -4%; bottom: -3rem; transform: rotate(-20deg); }
+@media (max-width: 860px) { .meet__grid { grid-template-columns: 1fr; } }

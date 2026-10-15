@@ -1,0 +1,6 @@
+.marquee { background: var(--ink); color: var(--ivory); border-block: 3px solid var(--ink); overflow: hidden; padding: 0.9rem 0; }
+.marquee__track { display: flex; width: max-content; animation: scroll 28s linear infinite; }
+.marquee__group { display: flex; flex-shrink: 0; gap: 2rem; padding-right: 2rem; font-family: var(--font-display); font-size: 1.1rem; white-space: nowrap; }
+.marquee__group span:nth-child(even) { color: var(--butter); }
+.marquee__group b { margin-left: 1.5rem; color: var(--lilac); }
+@keyframes scroll { to { transform: translateX(-50%); } }

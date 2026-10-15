@@ -1,0 +1,20 @@
+:root {
+  --forest: #1f4d3a;
+  --ivory: #f7f1e3;
+  --lavender: #e3dbfa;
+  --lilac: #c9b6f2;
+  --butter: #ffe58a;
+  --ink: #14141f;
+  --mint: #b9e8d0;
+  --peach: #ffc9b5;
+  --sky: #a9d4ff;
+  --blue: #4a7bf7;
+
+  --font-display: 'Bowlby One', 'Arial Black', sans-serif;
+  --font-hand: 'Caveat', 'Comic Sans MS', cursive;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --border: 3px solid var(--ink);
+  --shadow-pop: 4px 4px 0 var(--ink);
+  --nav-h: 76px;
+}
